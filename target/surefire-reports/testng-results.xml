@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="777" started-at="2021-08-24T10:53:32 IST" finished-at="2021-08-24T10:53:33 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner2@51b279c9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="777" started-at="2021-08-24T10:53:32 IST" finished-at="2021-08-24T10:53:33 IST">
+      <class name="runner.TestRunner2">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner2@51b279c9]" name="setUpClass" is-config="true" duration-ms="398" started-at="2021-08-24T10:53:32 IST" finished-at="2021-08-24T10:53:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner2@51b279c9]" name="runScenario" duration-ms="300" started-at="2021-08-24T10:53:33 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-24T10:53:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Create Target functionality working fine or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test Target module functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner2@51b279c9]" name="runScenario" duration-ms="300" started-at="2021-08-24T10:53:33 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-24T10:53:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check whether filter targets functionality working fine"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test Target module functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner2@51b279c9]" name="runScenario" duration-ms="300" started-at="2021-08-24T10:53:33 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-24T10:53:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should be able to delete target record"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test Target module functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner2@51b279c9]" name="runScenario" duration-ms="300" started-at="2021-08-24T10:53:33 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-24T10:53:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify import functionality of target module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test Target module functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner2@51b279c9]" name="runScenario" duration-ms="300" started-at="2021-08-24T10:53:33 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-24T10:53:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check whether all select/Deselect target list button on view target page working fine"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test Target module functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner2@51b279c9]" name="runScenario" duration-ms="300" started-at="2021-08-24T10:53:33 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-24T10:53:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check whether all links are working fine on target page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test Target module functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner2@51b279c9]" name="runScenario" duration-ms="300" started-at="2021-08-24T10:53:33 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-24T10:53:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify User should be able to edit existing targets"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test Target module functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner2@51b279c9]" name="tearDownClass" is-config="true" duration-ms="18" started-at="2021-08-24T10:53:33 IST" finished-at="2021-08-24T10:53:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
