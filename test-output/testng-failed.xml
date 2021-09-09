@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="runner.TestRunner2">
+      <class name="api.ReadJson">
         <methods>
-          <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="0 1 2 3 4 5 6"/>
-          <include name="tearDownClass"/>
+          <include name="readJson"/>
         </methods>
-      </class> <!-- runner.TestRunner2 -->
+      </class> <!-- api.ReadJson -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

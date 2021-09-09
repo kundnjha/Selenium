@@ -1,0 +1,5 @@
+# Create a new table from existing table with data and structure
+- create table  customer_copy as select * from customer;
+
+# copy a new table  without data only structure
+- create table customer_copy as select * from customer where 1=2

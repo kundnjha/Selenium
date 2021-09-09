@@ -1,9 +1,9 @@
 Feature: Test Target module functionality
-Background: User is on dashboard page
-When User hover on marketing button
-And  Clicks Targets module
-Then Verify user is on targets screen
+Background: 
+Given User has opened the site
+Then user logs in to the site
 
+@12
 Scenario: Verify Create Target functionality working fine or not
 When User clicks on create target button
 Then User verifiy target screen

@@ -1,35 +1,41 @@
 package stepDefinition;
-
+import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
-
-import common.Base;
+import common.TestContext;
+import enums.TestData;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
-import utilities.DriverInitialize;
+import utilities.Wait_utility;
 
-public class Hooks extends Base  {
+
+public class Hooks  {
+	TestContext testcontext;
+	WebDriver driver ;
+	
+	
+	public Hooks(TestContext context) {
+		testcontext = context;
+		
+	}	
 
 	
 	@Before
     public void beforeScenario(){
-		/*
-		 * System.out.println("This will run before the Scenario");
-		 * System.out.println("thread id:"+ Thread.currentThread().getId());
-		 */
-		setDriver(driver().driverInit("Chrome", "blank"));
-		String url = getUtility().readConfigFile("url");
-		getDriver().get(url);
+		
+		  String url = testcontext.getConfigFile().readConfigFile(TestData.url.toString());
+		  testcontext.getWebDriverManager().getDriver().get(url);
+		 
+		System.out.println("Before");
+		 
 
     }	
 	
-	@After
-    public void afterScenario(){
-		/*
-		 * System.out.println("This will run after the Scenario");
-		 * System.out.println("thread id:"+ Thread.currentThread().getId());
-		 */
-		getDriver().quit();
-
-    }
+	
+	  @After public void afterScenario(){
+		  testcontext.getWebDriverManager().closeDriver(); System.out.println("After");
+	  
+	  
+	  }
+	 
 
 }

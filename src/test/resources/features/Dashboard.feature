@@ -1,4 +1,9 @@
 Feature: Dashboard test cases
+
+Background: 
+Given User has opened the site
+Then user logs in to the site
+
 @12
 Scenario: Verify user is logged in successfully
 Given User is on dashboard page 

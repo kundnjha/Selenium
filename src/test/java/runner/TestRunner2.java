@@ -10,7 +10,8 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 @CucumberOptions(
 		features = "src/test/resources/features/Target.feature",
 		glue= "stepDefinition",
-		dryRun = false
+		dryRun = false,
+		tags = "@12" 
 )
 public class TestRunner2 extends AbstractTestNGCucumberTests {
 
